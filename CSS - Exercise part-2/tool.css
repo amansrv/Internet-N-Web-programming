@@ -1,0 +1,109 @@
+p.dotted {
+    border-style: dotted;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.dashed {
+    border-style: dashed;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.solid {
+    border-style: solid;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.double {
+    border-style: double;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.groove {
+    border-style: groove;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.ridge {
+    border-style: ridge;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.inset {
+    border-style: inset;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.outset {
+    border-style: outset;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.none {
+    border-style: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.hidden {
+    border-style: hidden;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+
+  p.mix {
+    border-style: dotted dashed solid double;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-width: 5px;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+  }
