@@ -1,0 +1,62 @@
+<!-- DOM - Built-in Objects? -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- array object -->
+    <script>
+      var cars = ["Saab", "Volvo", "BMW"];
+      document.write(cars[0] + "<br>");
+      document.write(cars[1] + "<br>");
+      document.write(cars[2] + "<br>");
+      document.write(cars.length + "<br>");
+      document.write(typeof cars + "<br>");
+    </script>
+    <!-- number object, -->
+    <script>
+      var x = 123;
+      var y = new Number(123);
+      document.write(x + "<br>");
+      document.write(y + "<br>");
+      document.write(typeof x + "<br>");
+      document.write(typeof y + "<br>");
+      document.write(x == y + "<br>");
+      document.write(x === y + "<br>");
+    </script>
+    <!-- date object -->
+    <script>
+      var d = new Date();
+      document.write(d + "<br>");
+      document.write(d.getFullYear() + "<br>");
+      document.write(d.getMonth() + "<br>");
+      document.write(d.getDate() + "<br>");
+      document.write(d.getHours() + "<br>");
+      document.write(d.getMinutes() + "<br>");
+      document.write(d.getSeconds() + "<br>");
+      document.write(d.getMilliseconds() + "<br>");
+      document.write(d.getDay() + "<br>");
+      document.write(d.getTime() + "<br>");
+    </script>
+    <!-- boolean object -->
+    <script>
+      var x = new Boolean();
+      document.write(x + "<br>");
+      document.write(typeof x + "<br>");
+      var y = new Boolean(0);
+      document.write(y + "<br>");
+      document.write(typeof y + "<br>");
+      var z = new Boolean(1);
+      document.write(z + "<br>");
+      document.write(typeof z + "<br>");
+    </script>
+  </body>
+</html>
